@@ -1,9 +1,8 @@
 const apiurl="https://api.openweathermap.org/data/2.5/weather?appid=385a3d9c0274cfb2bcaa2f12679a2f61&units=metric&q=";
 
 function c() {
-    var city=document.querySelector('#city_name').value;
-    var city = "Kerala";
-weather(city);
+    var city = document.querySelector('#city_name').value;
+    weather(city);
 }
 
 async function weather(city){
